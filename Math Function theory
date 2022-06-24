@@ -1,0 +1,21 @@
+C++ being superset of C, supports large number of useful mathematical functions. These functions are available in standard C++ and C to support various mathematical calculations. Instead of focusing on implementation, these functions can be directly used to simplify code and programs. C++ provides large set of mathematical functions which are stated below – 
+In order to use these functions you need to include header file- <math.h> or <cmath>. 
+ 
+
+double sin(double) : This function takes angle (in degree) as an argument and return its sine value that could be verified using sine curve.
+double cos(double) : This function takes angle (in degree) as an argument and return its cosine value that could be verified using cosine curve.
+double tan(double) : This function takes angle (in degree) as an argument and return its tangent value. This could also be verified using Trigonometry as Tan(x) = Sin(x)/Cos(x).
+double sqrt(double) : This function takes number as an argument and return its square root value. Number can not be negative value.
+int abs(int) : This function takes integer number as an argument and return its absolute value. It means, the output will always be positive regardless of sign of input.
+double pow(double, double) : This function takes one argument as base and other as exponent.
+double hypot(double, double) : This function requires two sides of the right angled triangle to give output as its hypotenuse.
+double floor(double) : This functions returns the integer value lesser or equal to argument passed in the function.
+double fabs(double) : This function returns the absolute value of any number.
+double acos(double) : This function returns the arc cosine of argument. The argument to acos() must be in the range -1 to 1 ; otherwise, a domain error occurs.
+double asin(double) : This function returns the arc sine of argument. The argument to asin() must be in the range -1 to 1 ; otherwise, a domain error occurs.
+double atan(double) : This function returns the arc tangent of arg.
+double atan2(double, double) : This function returns the arc tangent of (double a)/(double b).
+double ceil(double) : This function returns the smallest integer as double not less than the argument provided.
+double cosh(double) : This function returns the hyperbolic cosine of argument provided. The value of argument provided must be in radians.
+double tanh(double) : This function returns the hyperbolic tangent of argument provided. The value of argument provided must be in radians.
+double log(double) : This function takes a number and returns the natural log of that number.
